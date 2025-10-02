@@ -35,10 +35,10 @@ def messageStructure(line, machine, ISN, img_url, webhook_url, isn):
                         "size": "Large",
                         "weight": "Bolder",
                         "color": "Default",
-                        "text": "GLUE INSPECTION AI ALERT "
+                        "text": "GLUE INSPECTION AI ALERT " #CHANGE FOR YOUR OWN TITLE
                     },
                     {
-                        "type": "TextBlock",
+                        "type": "TextBlock",#THIS IS THE FIRST TEXT BLOCK
                         "text": f"Abnormal glue detected on {fecha}",
                         "wrap": True,
                         "spacing": "None",
@@ -70,7 +70,7 @@ def messageStructure(line, machine, ISN, img_url, webhook_url, isn):
                             {
                                 "type": "Action.OpenUrl",
                                 "title": "Open Link",
-                                "url": img_url
+                                "url": img_url #HERE IS WHERE WE ADD THE LINK OF OUR PICTURE IN THE WEBSERVER TO SHOW 
                             }
                         ],
                         "spacing": "Medium"
@@ -115,4 +115,5 @@ def messageStructure(line, machine, ISN, img_url, webhook_url, isn):
             time.sleep(2)
         else:
             print("All attempts retried")
+
 
