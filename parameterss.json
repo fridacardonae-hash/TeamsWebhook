@@ -1,12 +1,9 @@
 {
-   "ng_path": "\\\\10.232.7.32\\bu43\\AOI Logs\\GlueInspectionLogs",
+   "ng_path": "THIS IS A PATH I USE TO INSPECT AND TRIGGER THE WEBHOOK",
    "check_interval": 5,
    "enviados_log": "units_sent.txt",
-   "models": ["MTSTIM1", "MTSTIM5", "MTSRTV", "MTSEPOXY1", "MTSEPOXY3", "STRTIM1", "STRTIM5", "STRRTV", "STREPOXY1", "STREPOXY2", "STREPOXY3"],
-   "sender": "PMX_F0_AOI_AI@intra.pegatroncorp.com",
-   "receiver": ["Frida_Cardona@pegatroncorp.com"],
-   "teams_webhook_url": "https://prod-37.southeastasia.logic.azure.com:443/workflows/cdadc693a7cc4770a9925141da34b00f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=zm91DBRcGSEwRGea4DPeX99CAvtIpALFGX2mTq0eHro",
+   "teams_webhook_url": "PLACE YOUR OWN TEAMS WEBHOOK URL HERE",
    "send_email_backup": true,
-   "proxy": {"enabled": true, "host":"http://proxy8.intra", "port": 8080, "username": "", "password": ""},
    "port": 8080
+
 }
